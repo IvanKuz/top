@@ -5,3 +5,6 @@ free -hl
 посмотреть память занимаемую одним процессом
 ps -ylC php-fpm --sort:rss
 
+Locate the binary, source, and manual-page files for a command
+whereis php
+
