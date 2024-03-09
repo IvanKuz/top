@@ -1,3 +1,8 @@
+1. настройка php-fpm
+2. opcache
+3. nginx
+
+
 https://habr.com/ru/articles/430722/
 https://habr.com/ru/companies/vk/articles/310054/
 при помощи perf нашли несколько узких мест, в том числе место со сжатием, о котором я расскажу ниже.
