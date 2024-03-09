@@ -1,6 +1,31 @@
 1. настройка php-fpm
+
+
+max_children 
+(Общий объем оперативной памяти - Память используемая для Linux, базы данных и т.д.) / Размер процесса
+
+start_servers
+Количество ядер процессора х 4
+
+min_spare_servers
+Количество ядер процессора х 2
+
+max_spare_servers
+То же, что и для start_servers
+
+Мы также должны установить параметр pm.process_idle_timeout - количество секунд, по истечении которых бездействующий процесс будет убит.
+
+
+
 2. opcache
 3. nginx
+
+
+Инструменты
+https://github.com/arnaud-lb/php-memory-profiler 
+
+https://github.com/upwork/phystrix/blob/master/library/Odesk/Phystrix/ApcStateStorage.php
+кеширование арсу кешом
 
 
 https://habr.com/ru/articles/430722/
