@@ -16,6 +16,8 @@ max_spare_servers
 Мы также должны установить параметр pm.process_idle_timeout - количество секунд, по истечении которых бездействующий процесс будет убит.
 
 
+pstree -c -H <PHP-FPM process id> -S <PHP-FPM process id>
+
 
 2. opcache
 3. nginx
