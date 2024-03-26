@@ -4,6 +4,7 @@ show full processlist
 show master status
 show slave status
 
+mysqldump --set-gtid-purged=OFF --opt --quick Processing payment_system  > payment_system.sql
 
 
 
