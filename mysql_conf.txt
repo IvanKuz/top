@@ -1,3 +1,16 @@
+show engine innodb status
+show processlist
+show full processlist
+show master status
+show slave status
+
+
+
+
+
+
+
+
 
 # InnoDB parameters
 
